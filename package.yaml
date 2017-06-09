@@ -1,0 +1,30 @@
+config_version : 0
+
+uuid: a2715f54-187e-4f38-b4e6-ea1cdbb64c58
+
+name: usd_qt_components
+
+version: 0.1.0
+
+description: USD Qt Components
+
+authors:
+- luma
+
+private_build_requires:
+- AL_CMakeLibPython-6.1.0+<7
+- cmake-2.8
+
+build_requires:
+
+requires:
+- usdBase-0.7
+- Qtpy-1
+- typing-3
+
+variants:
+- [ python-2.7 ]
+
+commands:
+- export PATH=!ROOT!/bin:$PATH
+- export PYTHONPATH=!ROOT!/python/AL_usd_proto_utils-$REZ_AL_USD_PROTO_UTILS_VERSION-$PYTHON_VERSION_DOTTEDNAME.egg:$PYTHONPATH
