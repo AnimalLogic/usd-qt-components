@@ -4,7 +4,7 @@ uuid: a2715f54-187e-4f38-b4e6-ea1cdbb64c58
 
 name: usd_qt_components
 
-version: 0.1.0
+version: 0.0.1
 
 description: USD Qt Components
 
@@ -27,4 +27,4 @@ variants:
 
 commands:
 - export PATH=!ROOT!/bin:$PATH
-- export PYTHONPATH=!ROOT!/python/AL_usd_proto_utils-$REZ_AL_USD_PROTO_UTILS_VERSION-$PYTHON_VERSION_DOTTEDNAME.egg:$PYTHONPATH
+- export PYTHONPATH=!ROOT!/python/usd_qt_components-$REZ_USD_QT_COMPONENTS_VERSION-$PYTHON_VERSION_DOTTEDNAME.egg:$PYTHONPATH
